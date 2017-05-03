@@ -8,7 +8,7 @@
     <title>Dan Spencer Resume</title>
 
     <!-- Bootstrap -->
-    <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -34,29 +34,34 @@
     </nav>
 
     <div class="container">
-      <div class="header clearfix">
+      <section class="header clearfix">
         <h1>Dan Spencer</h1>
         <ul class="clearfix">
           <li class="first"><a href="mailto:da_spencer@hotmail.com">da_spencer@hotmail.com</a></li>
           <li><a href="tel:7056628469">705-662-8469</a></li>
           <li class="last">Garson, ON</li>
         </ul>
-      </div>
+      </section>
 
       <section id="Education">
         <h2>Education</h2>
 
         <h3>Bachelor in Computer Science - <em>Laurentian University</em></h3>
-        <time datetime="2000-09">September 2000</time> - <time datetime="2004-05">May 2004</time>
+        <div class="timePeriod">
+          <time datetime="2000-09">September 2000</time> - <time datetime="2004-05">May 2004</time>
+        </div>
         <ul>
           <li>Graduated with honours</li>
         </ul>
       </section>
+
       <section id="Experience">
         <h2>Experience</h2>
 
         <h3>Senior Programmer/Analyst - <em>City of Greater Sudbury</em></h3>
-        <time datetime="2012-06">June 2012</time> - <time datetime="2017-04">Present</time>
+        <div class="timePeriod">
+          <time datetime="2012-06">June 2012</time> - <time datetime="2017-04">Present</time>
+        </div>
 
         <ul>
           <li>Created and deployed Ruby on Rails applications with integrations to legacy .NET systems</li>
@@ -71,7 +76,9 @@
         </ul>
 
         <h3>Programmer/Analyst - <em>City of Greater Sudbury</em></h3>
-        <time datetime="2012-01">January 2012</time> - <time datetime="2012-05">May 2012</time>
+        <div class="timePeriod">
+          <time datetime="2012-01">January 2012</time> - <time datetime="2012-05">May 2012</time>
+        </div>
 
         <ul>
           <li>Created and deployed Ruby on Rails applications with unit testing</li>
@@ -81,8 +88,9 @@
 
 
         <h3>Web Engineer - <em>AtreNet</em></h3>
-        <time datetime="2004-08">August 2004</time> - <time datetime="2012-01">January 2012</time>
-
+        <div class="timePeriod">
+          <time datetime="2004-08">August 2004</time> - <time datetime="2012-01">January 2012</time>
+        </div>
         <ul>
           <li>Created beautiful, semantic, accessible, SEO-friendly, cross-browser compatible HTML templates based on design mockups</li>
           <li>Worked and communicated seamlessly with remote team members</li>
@@ -98,7 +106,7 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="bower_components/bootstrap/dist/js/library.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/library.js"></script>
   </body>
 </html>
